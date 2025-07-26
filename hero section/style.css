@@ -1,0 +1,31 @@
+/* hero section */
+
+.heroimg{
+    background-image: url(./assets/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-size: cover;
+    height: 600px;
+    object-fit: contain;
+}
+
+.herocontent{
+    width: 40%;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 20px;
+background-position: center center;
+}
+
+
+@media (max-width:768px) {
+    .herocontent{
+        width: 100%;
+        
+        
+    }
+    .heroimg{
+        justify-content: end !important;
+       padding: 20px;
+    }
+    
+}
